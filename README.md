@@ -25,6 +25,8 @@ Honer AI is proprietary; its application source code is not distributed here.
 
 Directory submission channels (review pending; these links do not imply approval):
 - [Сборка.AI — канал бесплатной заявки, проверка ожидается](https://sborka.ai/)
+
+<a href="https://ai-webcatalog.space/r/976118187bc7ec0b8438dfecc831fcbc" target="_blank" rel="sponsored noopener" title="AI Webcatalog — submission pending"><img src="https://ai-webcatalog.space/badges/badge-dark.svg" alt="Submission channel: AI Webcatalog; review pending" width="240" height="54" /></a>
 - [doforai.tools](https://doforai.tools/)
 - [AISuperHub](https://www.aisuperhub.io/)
 - [AiHubs](https://aihubs.ai/)
