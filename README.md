@@ -32,9 +32,6 @@ Directory submission channels (review pending; these links do not imply approval
 Backlinkhubs — directory submission channel, review pending:
 <a href="https://backlinkhubs.com/?utm_source=badge&utm_medium=embed&utm_campaign=xoner4-github-io" target="_blank" rel="noopener noreferrer" title="Backlinkhubs submission pending"><img src="https://backlinkhubs.com/badge.svg?theme=light&label=Listed%20on%20Backlinkhubs" alt="Submission channel: Backlinkhubs; review pending" /></a>
 
-Tool Cosmos — directory submission channel, review pending:
-<a target="_blank" href="https://toolcosmos.com/tool/xoner4-github" rel="noopener noreferrer" title="Tool Cosmos submission pending"><img src="https://toolcosmos.com/assets/images/badge.png" alt="Submission channel: Tool Cosmos; review pending" height="54" loading="lazy" /></a>
-
 - [doforai.tools](https://doforai.tools/)
 - [AISuperHub](https://www.aisuperhub.io/)
 - [AiHubs](https://aihubs.ai/)
