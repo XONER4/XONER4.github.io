@@ -28,6 +28,10 @@ Directory submission channels (review pending; these links do not imply approval
 - <a href="https://aitop10.tools/" target="_blank">AiTop10 Tools</a> — directory submission channel, review pending.
 
 <a href="https://ai-webcatalog.space/r/976118187bc7ec0b8438dfecc831fcbc" target="_blank" rel="sponsored noopener" title="AI Webcatalog — submission pending"><img src="https://ai-webcatalog.space/badges/badge-dark.svg" alt="Submission channel: AI Webcatalog; review pending" width="240" height="54" /></a>
+
+Backlinkhubs — directory submission channel, review pending:
+<a href="https://backlinkhubs.com/?utm_source=badge&utm_medium=embed&utm_campaign=xoner4-github-io" target="_blank" rel="noopener noreferrer" title="Backlinkhubs submission pending"><img src="https://backlinkhubs.com/badge.svg?theme=light&label=Listed%20on%20Backlinkhubs" alt="Submission channel: Backlinkhubs; review pending" /></a>
+
 - [doforai.tools](https://doforai.tools/)
 - [AISuperHub](https://www.aisuperhub.io/)
 - [AiHubs](https://aihubs.ai/)
