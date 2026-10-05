@@ -11,6 +11,8 @@ AI chat, web search with source links, attached photo and document analysis,
 voice input and read-aloud replies using available Android speech services,
 conversation history, chat search, pinning, archiving and branching.
 AI responses and web search require internet and cloud processing.
+The stable Honer AI 10.57.0 Android APK is available to download without payment.
+This does not promise unlimited or permanently free cloud service.
 
 - [Download the original APK](https://github.com/XONER4/honer-ai-downloads/releases/download/android-v10.57.0-105700/honer-ai-10.57.0.apk)
 - [Product materials with APK, RU/EN descriptions and images](https://github.com/XONER4/honer-ai-downloads/releases/download/android-v10.57.0-105700/honer-ai-10.57.0-public-kit-2026-10-05.zip)
@@ -24,6 +26,7 @@ This repository distributes compiled releases and public product information.
 Honer AI is proprietary; its application source code is not distributed here.
 
 Directory submission channels (review pending; these links do not imply approval):
+- [AI Tools for Marketers — submission channel, review pending](https://aitoolsmarketer.com/)
 - [Сборка.AI — канал бесплатной заявки, проверка ожидается](https://sborka.ai/)
 - <a href="https://aitop10.tools/" target="_blank">AiTop10 Tools</a> — directory submission channel, review pending.
 
