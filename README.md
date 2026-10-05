@@ -24,6 +24,7 @@ This repository distributes compiled releases and public product information.
 Honer AI is proprietary; its application source code is not distributed here.
 
 Directory submission channels (review pending; these links do not imply approval):
+- [Сборка.AI — канал бесплатной заявки, проверка ожидается](https://sborka.ai/)
 - [doforai.tools](https://doforai.tools/)
 - [AISuperHub](https://www.aisuperhub.io/)
 - [AiHubs](https://aihubs.ai/)
