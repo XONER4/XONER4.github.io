@@ -17,8 +17,8 @@ This does not promise unlimited or permanently free cloud service.
 - [Download the original APK](https://github.com/XONER4/honer-ai-downloads/releases/download/android-v10.57.0-105700/honer-ai-10.57.0.apk)
 - [Product materials with APK, RU/EN descriptions and images](https://github.com/XONER4/honer-ai-downloads/releases/download/android-v10.57.0-105700/honer-ai-10.57.0-public-kit-2026-10-05.zip)
 - [Product materials without APK](https://github.com/XONER4/honer-ai-downloads/releases/download/android-v10.57.0-105700/honer-ai-10.57.0-press-kit.zip)
-- [Privacy policy](https://relay.example-internal.invalid/legal/privacy)
-- [Terms](https://relay.example-internal.invalid/legal/terms)
+- [Privacy policy](https://xoner.pro/legal/privacy)
+- [Terms](https://xoner.pro/legal/terms)
 
 APK SHA-256: `889de9bd5390f067400a771242939e4f73f9c57e6a801196a4e89cfe0962c7d9`
 
