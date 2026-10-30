@@ -1,140 +1,83 @@
-# Honer AI
+<p align="center">
+  <img src="assets/icon.png" width="120" alt="Honer AI">
+</p>
 
-Developer: **HONER**. Android 7.0+.
+<h1 align="center">Honer AI</h1>
+<p align="center"><b>ИИ-помощник на русском языке для Android</b><br>
+Чат с нейросетью · документы и фото · генерация картинок · голос · интеграции с GitHub, Яндекс.Диском и почтой</p>
 
-Honer AI 10.57.0 for Android — HONER
+<p align="center">
+  <a href="https://appteka.store/apps/ea1r334201"><img alt="Скачать в Appteka" src="https://img.shields.io/badge/%E2%AC%87%20%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-Appteka-5b7cff?style=for-the-badge"></a>
+  <img alt="Версия 10.61.4" src="https://img.shields.io/badge/%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8F-10.61.4-9a6bff?style=for-the-badge">
+  <img alt="Android 7.0+" src="https://img.shields.io/badge/Android-7.0%2B-38d9a9?style=for-the-badge">
+</p>
 
-Stable Android app, package com.honerai.app, version code 105700.
-Android 7.0 and later. Russian and English interfaces.
+<p align="center"><img src="assets/banner-1024x500.png" alt="Honer AI"></p>
 
-AI chat, web search with source links, attached photo and document analysis,
-voice input and read-aloud replies using available Android speech services,
-conversation history, chat search, pinning, archiving and branching.
-AI responses and web search require internet and cloud processing.
-The stable Honer AI 10.57.0 Android APK is available to download without payment.
-This does not promise unlimited or permanently free cloud service.
+## Что умеет Honer AI
 
-- [Download the original APK](https://github.com/XONER4/honer-ai-downloads/releases/download/android-v10.57.0-105700/honer-ai-10.57.0.apk)
-- [Product materials with APK, RU/EN descriptions and images](https://github.com/XONER4/honer-ai-downloads/releases/download/android-v10.57.0-105700/honer-ai-10.57.0-public-kit-2026-10-05.zip)
-- [Product materials without APK](https://github.com/XONER4/honer-ai-downloads/releases/download/android-v10.57.0-105700/honer-ai-10.57.0-press-kit.zip)
-- [Privacy policy](https://xoner.pro/legal/privacy)
-- [Terms](https://xoner.pro/legal/terms)
+| | |
+|---|---|
+| 💬 **Умный чат** | Вопросы, идеи, объяснение сложных тем, перевод и планы. История, поиск по чатам, избранное, черновики |
+| 🎨 **Генерация картинок** | Опишите, что хотите увидеть, и получите готовое изображение в чате |
+| 📎 **Документы и фото** | Файлы, PDF и до 15 фото за раз; таблицы, диаграммы и файлы создаются на лету |
+| 🌐 **Поиск в интернете** | Нейросеть ищет, читает страницы и даёт ссылки на источники |
+| 🎙 **Голос** | Говорите вместо печати и слушайте ответы |
+| 🧠 **Память и задачи** | Важные факты, исследование темы, наблюдение за страницей, напоминания |
+| 🛠 **Помощник по приложению** | Подскажет, где настройка, покажет кнопку и поменяет её по вашей просьбе |
+| 🎮 **Игры и викторины** | Шахматы, шашки, «Дурак» без денежных ставок |
+| 🔒 **Защита** | PIN-код и замок чатов, удаление аккаунта и данных в приложении |
 
-APK SHA-256: `889de9bd5390f067400a771242939e4f73f9c57e6a801196a4e89cfe0962c7d9`
+## Скриншоты
 
-This repository distributes compiled releases and public product information.
-Honer AI is proprietary; its application source code is not distributed here.
+<p align="center">
+  <img src="assets/screen-01.jpg" width="23%"> <img src="assets/screen-02.jpg" width="23%"> <img src="assets/screen-03.jpg" width="23%"> <img src="assets/screen-04.jpg" width="23%">
+</p>
+<p align="center">
+  <img src="assets/screen-05.jpg" width="23%"> <img src="assets/screen-06.jpg" width="23%"> <img src="assets/screen-07.jpg" width="23%"> <img src="assets/screen-08.jpg" width="23%">
+</p>
 
-Directory submission channels (review pending; these links do not imply approval):
-- [AI Tools for Marketers — submission channel, review pending](https://aitoolsmarketer.com/)
-- [Сборка.AI — канал бесплатной заявки, проверка ожидается](https://sborka.ai/)
-- <a href="https://aitop10.tools/" target="_blank">AiTop10 Tools</a> — directory submission channel, review pending.
+## Интеграции с вашими сервисами
 
-<a href="https://ai-webcatalog.space/r/976118187bc7ec0b8438dfecc831fcbc" target="_blank" rel="sponsored noopener" title="AI Webcatalog — submission pending"><img src="https://ai-webcatalog.space/badges/badge-dark.svg" alt="Submission channel: AI Webcatalog; review pending" width="240" height="54" /></a>
+**GitHub** · **Яндекс.Диск** · **Railway** · **Timeweb Cloud** · **Почта (IMAP, только чтение)**
 
-Backlinkhubs — directory submission channel, review pending:
-<a href="https://backlinkhubs.com/?utm_source=badge&utm_medium=embed&utm_campaign=xoner4-github-io" target="_blank" rel="noopener noreferrer" title="Backlinkhubs submission pending"><img src="https://backlinkhubs.com/badge.svg?theme=light&label=Listed%20on%20Backlinkhubs" alt="Submission channel: Backlinkhubs; review pending" /></a>
+Подключайте сервисы в настройках приложения. Изменения в подключённых сервисах выполняются только после вашего подтверждения. Большие файлы читаются по частям: видно, сколько прочитано, есть кнопка «Дочитать» и чтение нужных строк.
 
-- [doforai.tools](https://doforai.tools/)
-- [AISuperHub](https://www.aisuperhub.io/)
-- [AiHubs](https://aihubs.ai/)
-- [AIHuntList](https://aihuntlist.com/)
-- [Twelve Tools](https://twelve.tools/)
-- [AIHuntList submission Honer AI](https://aihuntlist.com/tool/honer-ai)
+## Девять языков
 
-<a href="https://thesaasdir.com/product/honer-ai?ref=badge" rel="dofollow"><img src="https://thesaasdir.com/badge/honer-ai.svg" alt="Submission channel: TheSaaSDir" width="160"></a>
-- [AI Hustle](https://aihustle.tools/)
+🇷🇺 Русский · 🇬🇧 English · 🇪🇸 Español · 🇫🇷 Français · 🇵🇹 Português · 🇸🇦 العربية · 🇨🇳 中文 · 🇮🇳 हिन्दी · 🇧🇩 বাংলা
 
-<a href="https://theaitoolsdir.com/product/honer-ai?ref=badge" rel="dofollow"><img src="https://theaitoolsdir.com/badge/honer-ai.svg" alt="Submission channel: TheAIToolsDir" width="160"></a>
+## Частые вопросы
 
-<a href="https://indielineup.com/product/honer-ai?ref=badge" rel="dofollow"><img src="https://indielineup.com/badge/honer-ai.svg" alt="Submission channel: IndieLineup" width="160"></a>
+<details><summary><b>Сколько это стоит?</b></summary>
 
-<a href="https://saaslineup.com/product/honer-ai?ref=badge" rel="dofollow"><img src="https://saaslineup.com/badge/honer-ai.svg" alt="Submission channel: SaaSLineup" width="160"></a>
+Приложение бесплатно для скачивания. Ответы ИИ обрабатываются на сервере приложения и у внешних поставщиков ИИ, поэтому нужен интернет.
+</details>
 
-<a href="https://themicrosaasdir.com/product/honer-ai?ref=badge" rel="dofollow"><img src="https://themicrosaasdir.com/badge/honer-ai.svg" alt="Submission channel: TheMicroSaaSDir" width="160"></a>
+<details><summary><b>Нужна ли регистрация?</b></summary>
 
-<a href="https://dofollow.tools/" rel="dofollow"><img src="https://dofollow.tools/badge/badge_light.svg" alt="Submission channel: Dofollow.Tools" width="160"></a>
+Нет. Чтобы восстановить чаты на другом телефоне, можно войти через Яндекс, Google или GitHub.
+</details>
 
-<a href="https://aiboom.tools/" rel="dofollow"><img src="https://aiboom.tools/badge/badge_light.svg" alt="Submission channel: AIBoom.Tools" width="160"></a>
+<details><summary><b>Какие версии Android поддерживаются?</b></summary>
 
-<a href="https://deeplaunch.io/" rel="dofollow"><img src="https://deeplaunch.io/badge/badge_light.svg" alt="Submission channel: DeepLaunch.io" width="160"></a>
-- [AI Toolz Dir](https://www.aitoolzdir.com/)
-- [SaaS Cubes](https://saascubes.com/)
+Android 7.0 и новее.
+</details>
 
-<a href="https://findly.tools/honer-ai?utm_source=honer-ai" rel="dofollow"><img src="https://findly.tools/badges/findly-tools-badge-light.svg" alt="Submission channel: Findly.tools" width="160"></a>
-- [Wired Business](https://wired.business/)
+<details><summary><b>Как обновить приложение?</b></summary>
 
-<a href="https://www.alltoolsdirectory.com/tools/honer-ai-ba994e" rel="dofollow"><img src="https://www.alltoolsdirectory.com/badges/featured-on.svg" alt="Submission channel: AllToolsDirectory" width="160"></a>
+Если вы установили Honer AI из Appteka, магазин сам предложит «Обновить», когда выйдет новая версия. Чаты и настройки сохраняются.
+</details>
 
-<a href="https://launchkoala.com/products/product-02e2e0be" rel="dofollow"><img src="https://launchkoala.com/brand-new/badges/launchkoala-featured-badge.svg" alt="Submission channel: LaunchKoala" width="160"></a>
+<details><summary><b>Что с моими данными?</b></summary>
 
-<a href="https://neeed.directory/" rel="dofollow"><img src="https://neeed.directory/badges/neeed-badge-light.svg" alt="Submission channel: neeed.directory" width="160"></a>
+Чаты хранятся на вашем телефоне; облачная копия включается по желанию. Аккаунт и данные можно удалить в приложении. Подробности — в [политике конфиденциальности](https://xoner4-honor-pk-agent-ios-57fa.twc1.net/legal/privacy). Нейросеть может ошибаться — важные сведения проверяйте.
+</details>
 
-<a href="https://tooldirs.com/" rel="dofollow"><img src="https://tooldirs.com/badge/badge_light.svg" alt="Submission channel: ToolDirs" width="160"></a>
+## Скачать
 
-<a href="https://firstlook.tools/" rel="dofollow"><img src="https://firstlook.tools/badge/badge_light.svg" alt="Submission channel: FirstLook" width="160"></a>
+**[⬇ Honer AI 10.61.4 в Appteka](https://appteka.store/apps/ea1r334201)** · пакет `com.honerai.app`
 
-<a href="https://gets.tools/" rel="dofollow"><img src="https://gets.tools/badge/badge_light.svg" alt="Submission channel: Gets.Tools" width="160"></a>
+[Политика конфиденциальности](https://xoner4-honor-pk-agent-ios-57fa.twc1.net/legal/privacy) · [Пользовательское соглашение](https://xoner4-honor-pk-agent-ios-57fa.twc1.net/legal/terms) · Поддержка: helper2026ai@mail.ru
 
-<a href="https://acidtools.com/ai/xoner4-github" rel="dofollow"><img src="https://acidtools.com/assets/images/badge.png" alt="Submission channel: AcidTools" width="160"></a>
-- [Launched.tools](https://launched.tools/tools/honer-ai)
-
-<a href="https://launched.tools/tools/honer-ai" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:8px;background:#FFFFFF;border:1px solid #D4D7C9;border-radius:10px;padding:8px 12px;text-decoration:none;font-family:sans-serif">
-  <span style="width:22px;height:22px;border-radius:6px;background:#C6F94E;display:inline-flex;align-items:center;justify-content:center">
-    <svg width="13" height="13" viewBox="128 120 264 264"><path d="M214 120 L392 120 L392 298 Z" fill="#15170F"></path><path d="M156 356 L322 190" stroke="#15170F" stroke-width="78" fill="none"></path></svg>
-  </span>
-  <span style="display:flex;flex-direction:column;line-height:1.2">
-    <span style="font-weight:700;font-size:12px;color:#15170F">Featured on launched.tools</span>
-    <span style="font-size:10px;color:#878C79">REVIEWED ✓</span>
-  </span>
-</a>
-
-<a href="https://amaze.directory/tools/honer-ai" rel="dofollow"><img src="https://amaze.directory/badge/dark.svg" alt="Submission channel: Amaze" width="160"></a>
-
-<a href="https://letslaunch.today/product/honer-ai" rel="dofollow"><img src="https://letslaunch.today/badge/honer-ai.svg" alt="Submission channel: LetsLaunch" width="160"></a>
-
-<a href="https://goodaitools.com/ai/xoner4-github" rel="dofollow"><img src="https://goodaitools.com/assets/images/badge.png" alt="Submission channel: Good AI Tools" width="160"></a>
-
-<a href="https://www.promptfrenzy.com/directory" rel="dofollow"><img src="https://www.promptfrenzy.com/badges/directory-mono-dark.svg" alt="Submission channel: PromptFrenzy" width="160"></a>
-
-<a href="https://aipulse.fyi" rel="dofollow">AI Pulse - AI Tools Directory</a>
-
-<a href="https://navfolders.com/" rel="dofollow"><img src="https://navfolders.com/badge/nav_transparent.svg" alt="Submission channel: NavFolders" width="160"></a>
-
-<a href="https://aitechviral.com/ai/xoner4-github" rel="dofollow"><img src="https://aitechviral.com/assets/images/badge.png" alt="Submission channel: AI Tech Viral" width="160"></a>
-
-<a href="https://weliketools.com/tool/xoner4-github" rel="dofollow"><img src="https://weliketools.com/assets/images/badge.png" alt="Submission channel: We Like Tools" width="160"></a>
-
-<a href="https://aibesttop.com" rel="dofollow"><img src="https://aibesttop.com/badges/light.svg" alt="Submission channel: AI Best Top" width="160"></a>
-
-<a href="https://ashlist.com/product/xoner4-github" rel="dofollow"><img src="https://ashlist.com/assets/images/badge.png" alt="Submission channel: Ash List" width="160"></a>
-
-<a href="https://realisticai.io" rel="dofollow">Realistic AI - DokeyAI submission partner</a>
-
-<a href="https://latestaiupdates.com/ai/xoner4-github" rel="dofollow"><img src="https://latestaiupdates.com/assets/images/badge.png" alt="Submission channel: Latest AI Updates" width="160"></a>
-
-<a href="https://postmake.io" rel="dofollow"><img src="https://postmake.io/postmake_badge_light.png" alt="Submission channel: Postmake" width="160"></a>
-
-<a href="https://smartkithub.com/product/xoner4-github" rel="dofollow"><img src="https://smartkithub.com/assets/images/badge.png" alt="Submission channel: Smart Kit Hub" width="160"></a>
-
-<a href="https://softwarebolt.com/product/xoner4-github" rel="dofollow"><img src="https://softwarebolt.com/assets/images/badge.png" alt="Submission channel: Software Bolt" width="160"></a>
-
-<a href="https://solvertools.com/tool/xoner4-github" rel="dofollow"><img src="https://solvertools.com/assets/images/badge.png" alt="Submission channel: Solver Tools" width="160"></a>
-
-<a href="https://superaiboom.com/ai/xoner4-github" rel="dofollow"><img src="https://superaiboom.com/assets/images/badge.png" alt="Submission channel: Super AI Boom" width="160"></a>
-
-<a href="https://toolsunderradar.com/tool/xoner4-github" rel="dofollow"><img src="https://toolsunderradar.com/assets/images/badge.png" alt="Submission channel: Tools Under Radar" width="160"></a>
-
-<a href="https://debutpin.com" rel="dofollow"><img src="https://debutpin.com/brand/badge.svg" alt="Submission channel: DebutPin" width="160"></a>
-
-<a href="https://toolhunter.ai/ai-tool/honer-ai?ref=badge" rel="dofollow"><img src="https://toolhunter.ai/badge/honer-ai.svg?theme=light" alt="Submission channel: Toolhunter" width="160"></a>
-
-
-
-
-
-<a href="https://bunny.directory/product/honer-ai" rel="dofollow"><img src="https://bunny.directory/product/honer-ai/badge.svg?theme=light" alt="Submission channel: Bunny Directory" width="160"></a>
-
-<a href="https://besttoolvault.com/tool/xoner4-github" rel="dofollow"><img src="https://besttoolvault.com/assets/images/badge.png" alt="Submission channel: Best Tool Vault" width="160"></a>
-
-<a href="https://aixcollection.com/ai/xoner4-github" rel="dofollow"><img src="https://aixcollection.com/assets/images/badge.png" alt="Submission channel: AI X Collection" width="160"></a>
+<sub>© Honer AI. Разработчик: HONER. Исходный код приложения не распространяется.</sub>

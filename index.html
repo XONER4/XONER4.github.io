@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Honer AI — ИИ-помощник на русском для Android</title>
+<meta name="description" content="Honer AI: чат с нейросетью на русском языке, документы и фото, голос, генерация картинок, интеграции с GitHub, Яндекс.Диском и почтой. Девять языков интерфейса. Android 7.0+.">
+<meta property="og:title" content="Honer AI — ИИ-помощник на русском для Android">
+<meta property="og:description" content="Чат с нейросетью, документы, фото, голос, генерация картинок и интеграции с вашими сервисами.">
+<meta property="og:image" content="assets/banner-1024x500.png">
+<link rel="icon" href="assets/icon.png">
+<style>
+:root{--bg:#070a1c;--bg2:#0d1230;--card:#111739;--line:#222a5c;--text:#eef1ff;--muted:#a8b2e6;--accent:#5b7cff;--accent2:#9a6bff;--ok:#38d9a9}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:radial-gradient(1200px 600px at 80% -10%,#24206b55,transparent),radial-gradient(900px 500px at -10% 10%,#14327a55,transparent),var(--bg);color:var(--text);font:16px/1.6 -apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+a{color:#8fa6ff}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+header.nav{display:flex;align-items:center;justify-content:space-between;padding:18px 0}
+.brand{display:flex;align-items:center;gap:12px;font-weight:700;font-size:20px;color:var(--text);text-decoration:none}
+.brand img{width:40px;height:40px;border-radius:10px}
+.nav a.link{color:var(--muted);text-decoration:none;margin-left:20px;font-size:15px}
+.nav a.link:hover{color:#fff}
+.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:36px;align-items:center;padding:36px 0 56px}
+.hero h1{font-size:clamp(34px,5vw,56px);line-height:1.1;margin:0 0 16px;letter-spacing:-.02em}
+.hero h1 span{background:linear-gradient(90deg,#7b9bff,#c08bff);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p.lead{font-size:19px;color:var(--muted);margin:0 0 26px}
+.btns{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:14px}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:14px 22px;border-radius:14px;font-weight:600;text-decoration:none;font-size:16px}
+.btn.primary{background:linear-gradient(90deg,var(--accent),var(--accent2));color:#fff;box-shadow:0 10px 30px #5b7cff44}
+.btn.ghost{background:#ffffff0d;border:1px solid var(--line);color:var(--text)}
+.btn.soon{opacity:.6;cursor:default}
+.meta{color:var(--muted);font-size:14px}
+.phones{display:flex;gap:14px;justify-content:center}
+.phones img{width:46%;border-radius:22px;border:1px solid var(--line);box-shadow:0 20px 50px #0008}
+.phones img:nth-child(2){margin-top:34px}
+section{padding:46px 0}
+h2{font-size:clamp(26px,3.4vw,38px);margin:0 0 8px;letter-spacing:-.01em}
+.sub{color:var(--muted);margin:0 0 28px;max-width:720px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.card{background:linear-gradient(180deg,#141a44,#0f1434);border:1px solid var(--line);border-radius:18px;padding:22px}
+.card .ic{font-size:28px;margin-bottom:8px}
+.card h3{margin:0 0 6px;font-size:18px}
+.card p{margin:0;color:var(--muted);font-size:15px}
+.shots{display:flex;gap:16px;overflow-x:auto;padding:6px 2px 18px;scroll-snap-type:x mandatory}
+.shots img{height:520px;border-radius:20px;border:1px solid var(--line);scroll-snap-align:start;flex:0 0 auto}
+.langs{display:flex;flex-wrap:wrap;gap:10px}
+.chip{padding:9px 16px;border-radius:999px;background:#ffffff0d;border:1px solid var(--line);font-size:15px}
+.tools{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}
+.tool{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;text-align:center;font-weight:600}
+.tool small{display:block;color:var(--muted);font-weight:400;margin-top:4px;font-size:13px}
+details{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 18px;margin-bottom:10px}
+details[open]{border-color:#3a4aa0}
+summary{cursor:pointer;font-weight:600;list-style:none}
+summary::-webkit-details-marker{display:none}
+summary::before{content:"＋";color:var(--accent);margin-right:10px}
+details[open] summary::before{content:"－"}
+details p{color:var(--muted);margin:10px 0 0}
+.cta{text-align:center;background:linear-gradient(135deg,#1c2a7a,#3a1f7a);border:1px solid #3a4aa0;border-radius:24px;padding:42px 22px;margin:26px 0 40px}
+.cta h2{margin-bottom:10px}
+footer{border-top:1px solid var(--line);padding:26px 0 44px;color:var(--muted);font-size:14px}
+footer a{margin-right:16px}
+@media(max-width:900px){.hero{grid-template-columns:1fr}.grid{grid-template-columns:1fr 1fr}.tools{grid-template-columns:1fr 1fr}.shots img{height:440px}}
+@media(max-width:560px){.grid{grid-template-columns:1fr}.nav a.link{display:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="nav">
+  <a class="brand" href="#"><img src="assets/icon.png" alt="Honer AI"> Honer AI</a>
+  <nav><a class="link" href="#features">Возможности</a><a class="link" href="#screens">Скриншоты</a><a class="link" href="#faq">Вопросы</a><a class="link" href="#download">Скачать</a></nav>
+</header>
+
+<div class="hero">
+  <div>
+    <h1>ИИ-помощник на русском — <span>в вашем кармане</span></h1>
+    <p class="lead">Общайтесь с нейросетью, работайте с документами и фото, создавайте картинки, говорите голосом и подключайте свои сервисы: GitHub, Яндекс.Диск, почту. Девять языков интерфейса.</p>
+    <div class="btns">
+      <a class="btn primary" href="https://appteka.store/apps/ea1r334201">⬇ Скачать в Appteka</a>
+      <a class="btn ghost" href="#features">Что умеет</a>
+    </div>
+    <div class="meta">Версия 10.61.4 · Android 7.0 и новее · бесплатно</div>
+  </div>
+  <div class="phones">
+    <img src="assets/screen-01.jpg" alt="Инструменты для ваших задач">
+    <img src="assets/screen-03.jpg" alt="Больше, чем ответы">
+  </div>
+</div>
+
+<section id="features">
+  <h2>Что умеет Honer AI</h2>
+  <p class="sub">Один помощник для учёбы, работы и повседневных дел. Все функции доступны прямо в чате.</p>
+  <div class="grid">
+    <div class="card"><div class="ic">💬</div><h3>Умный чат</h3><p>Задавайте вопросы, обсуждайте идеи, просите объяснить сложную тему, перевести текст или составить план. История, поиск по чатам, избранное и черновики.</p></div>
+    <div class="card"><div class="ic">🎨</div><h3>Генерация картинок</h3><p>Опишите, что хотите увидеть, и получите готовое изображение прямо в чате. Фото можно обрабатывать и сохранять.</p></div>
+    <div class="card"><div class="ic">📎</div><h3>Документы и фото</h3><p>Прикрепляйте файлы, PDF и до 15 фото за раз: ИИ прочитает, разберёт и ответит. Таблицы, диаграммы и файлы создаются на лету.</p></div>
+    <div class="card"><div class="ic">🌐</div><h3>Поиск в интернете</h3><p>Нейросеть ищет информацию, читает страницы и даёт ссылки на источники, чтобы можно было проверить ответ.</p></div>
+    <div class="card"><div class="ic">🎙</div><h3>Голос</h3><p>Говорите вместо печати и слушайте ответы. Автоматическое чтение включается отдельно для каждого чата.</p></div>
+    <div class="card"><div class="ic">🧠</div><h3>Память и задачи</h3><p>Сохраняйте важные факты, запускайте исследование темы, наблюдение за страницей или напоминание — результат придёт уведомлением.</p></div>
+    <div class="card"><div class="ic">🛠</div><h3>Помощник по приложению</h3><p>Спросите, где находится нужная настройка: ассистент покажет кнопку перехода и сам поменяет настройку по вашей просьбе.</p></div>
+    <div class="card"><div class="ic">🎮</div><h3>Игры и викторины</h3><p>Шахматы, шашки и «Дурак» без денежных ставок, викторины с разбором ответов.</p></div>
+    <div class="card"><div class="ic">🔒</div><h3>Защита</h3><p>PIN-код и замок для чатов. Аккаунт и данные можно удалить прямо в приложении. Аккаунт для начала общения не нужен.</p></div>
+  </div>
+</section>
+
+<section id="screens">
+  <h2>Как это выглядит</h2>
+  <p class="sub">Прокрутите вправо, чтобы увидеть все экраны.</p>
+  <div class="shots">
+    <img src="assets/screen-01.jpg" alt="Инструменты для ваших задач" loading="lazy">
+    <img src="assets/screen-02.jpg" alt="Вы управляете памятью" loading="lazy">
+    <img src="assets/screen-03.jpg" alt="Больше, чем ответы" loading="lazy">
+    <img src="assets/screen-04.jpg" alt="Учитесь в диалоге" loading="lazy">
+    <img src="assets/screen-05.jpg" alt="От идеи — к ответу" loading="lazy">
+    <img src="assets/screen-06.jpg" alt="Каждому профилю — своё" loading="lazy">
+    <img src="assets/screen-07.jpg" alt="Поддержка внутри приложения" loading="lazy">
+    <img src="assets/screen-08.jpg" alt="Говорите. Слушайте. Создавайте." loading="lazy">
+  </div>
+</section>
+
+<section id="tools">
+  <h2>Интеграции с вашими сервисами</h2>
+  <p class="sub">Подключайте сервисы в настройках приложения. Любые изменения в подключённых сервисах выполняются только после вашего подтверждения.</p>
+  <div class="tools">
+    <div class="tool">GitHub<small>читать и править файлы репозиториев</small></div>
+    <div class="tool">Яндекс.Диск<small>работа с текстовыми файлами</small></div>
+    <div class="tool">Railway<small>проекты и деплои</small></div>
+    <div class="tool">Timeweb Cloud<small>состояние облачных серверов</small></div>
+    <div class="tool">Почта (IMAP)<small>последние письма, только чтение</small></div>
+  </div>
+  <p class="sub" style="margin-top:18px">Большие файлы из GitHub и Яндекс.Диска читаются по частям: видно, сколько уже прочитано, есть кнопка «Дочитать» и чтение нужных строк.</p>
+</section>
+
+<section id="languages">
+  <h2>Девять языков</h2>
+  <p class="sub">Интерфейс и ответы нейросети — на выбранном вами языке.</p>
+  <div class="langs">
+    <span class="chip">🇷🇺 Русский</span><span class="chip">🇬🇧 English</span><span class="chip">🇪🇸 Español</span><span class="chip">🇫🇷 Français</span><span class="chip">🇵🇹 Português</span><span class="chip">🇸🇦 العربية</span><span class="chip">🇨🇳 中文</span><span class="chip">🇮🇳 हिन्दी</span><span class="chip">🇧🇩 বাংলা</span>
+  </div>
+</section>
+
+<section id="faq">
+  <h2>Частые вопросы</h2>
+  <details><summary>Что такое Honer AI?</summary><p>Это приложение для Android с ИИ-помощником на русском языке: чат с нейросетью, работа с документами и фото, поиск в интернете, голос, генерация картинок и интеграции с вашими сервисами.</p></details>
+  <details><summary>Сколько это стоит?</summary><p>Приложение бесплатно для скачивания. Ответы ИИ обрабатываются на сервере приложения и у внешних поставщиков ИИ, поэтому нужен интернет.</p></details>
+  <details><summary>Нужна ли регистрация?</summary><p>Нет, чтобы начать общение, сторонний аккаунт не нужен. Если хотите восстановить чаты на другом телефоне, можно войти через Яндекс, Google или GitHub.</p></details>
+  <details><summary>Какие версии Android поддерживаются?</summary><p>Android 7.0 и новее.</p></details>
+  <details><summary>Умеет ли Honer AI создавать картинки?</summary><p>Да. Опишите картинку словами, и она появится в чате. Если не получилось, приложение объяснит причину и предложит повторить.</p></details>
+  <details><summary>Какие языки поддерживаются?</summary><p>Девять: русский, английский, испанский, французский, португальский, арабский, китайский, хинди и бенгальский.</p></details>
+  <details><summary>Можно ли работать с файлами из GitHub и Яндекс.Диска?</summary><p>Да. Подключите сервис в настройках, и ИИ сможет читать и править ваши файлы. Изменения выполняются после подтверждения, большие файлы читаются по частям.</p></details>
+  <details><summary>Что с моими данными?</summary><p>Чаты хранятся на вашем телефоне; облачная копия включается по желанию. Аккаунт и данные можно удалить в приложении. Подробности — в <a href="https://xoner4-honor-pk-agent-ios-57fa.twc1.net/legal/privacy">политике конфиденциальности</a>. Нейросеть может ошибаться — важные сведения проверяйте.</p></details>
+  <details><summary>Как обновить приложение?</summary><p>Если вы установили Honer AI из Appteka, магазин сам предложит «Обновить», когда выйдет новая версия. Чаты и настройки сохраняются.</p></details>
+</section>
+
+<div class="cta" id="download">
+  <h2>Попробуйте Honer AI</h2>
+  <p class="sub" style="margin:0 auto 22px">Установка занимает минуту. Чаты и настройки сохраняются при обновлениях.</p>
+  <div class="btns" style="justify-content:center">
+    <a class="btn primary" href="https://appteka.store/apps/ea1r334201">⬇ Скачать в Appteka</a>
+  </div>
+  <div class="meta">Версия 10.61.4 · Android 7.0+ · пакет com.honerai.app</div>
+</div>
+
+<footer>
+  <a href="https://xoner4-honor-pk-agent-ios-57fa.twc1.net/legal/privacy">Политика конфиденциальности</a>
+  <a href="https://xoner4-honor-pk-agent-ios-57fa.twc1.net/legal/terms">Пользовательское соглашение</a>
+  <a href="mailto:helper2026ai@mail.ru">Поддержка: helper2026ai@mail.ru</a>
+  <div style="margin-top:10px">© Honer AI. Разработчик: HONER.</div>
+</footer>
+</div>
+</body>
+</html>
