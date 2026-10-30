@@ -78,6 +78,10 @@ Android 7.0 и новее.
 
 **[⬇ Honer AI 10.61.4 в Appteka](https://appteka.store/apps/ea1r334201)** · пакет `com.honerai.app`
 
+Все официальные способы установки и сведения об обновлении: **[скачать Honer AI](https://xoner4.github.io/download/)**. Версии в магазинах и на сервере загрузки могут обновляться в разное время.
+
+Официальный сайт: **[xoner4.github.io](https://xoner4.github.io/)**. Инструкции: [возможности](https://xoner4.github.io/features/), [память](https://xoner4.github.io/memory/), [создание изображений](https://xoner4.github.io/images/), [таблицы и файлы](https://xoner4.github.io/files/), [интеграции](https://xoner4.github.io/integrations/), [помощь](https://xoner4.github.io/help/).
+
 [Политика конфиденциальности](https://xoner4-honor-pk-agent-ios-57fa.twc1.net/legal/privacy) · [Пользовательское соглашение](https://xoner4-honor-pk-agent-ios-57fa.twc1.net/legal/terms) · Поддержка: helper2026ai@mail.ru
 
 <sub>© Honer AI. Разработчик: HONER. Исходный код приложения не распространяется.</sub>
