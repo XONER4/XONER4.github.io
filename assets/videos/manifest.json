@@ -1,0 +1,110 @@
+{
+  "created": "2026-10-30",
+  "format": "web derivatives; originals preserved",
+  "videos": [
+    {
+      "id": "01",
+      "file": "/assets/videos/honer-ai-tasks-60s.mp4",
+      "poster": "/assets/video-posters/honer-ai-tasks-60s.jpg",
+      "captions": "/assets/videos/honer-ai-tasks-60s.vtt",
+      "bytes": 3797948,
+      "sha256": "a712caae81a7e2f4939e70b8ac284e682a5e17f1ba7199cd55bca0e225297c3b",
+      "duration": 60.01,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 720,
+          "height": 1280,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000"
+        }
+      ],
+      "poster_at_seconds": 10,
+      "title": "Задача в действии",
+      "heading": "Как Honer AI отвечает, создаёт таблицу и запоминает предпочтение"
+    },
+    {
+      "id": "02",
+      "file": "/assets/videos/honer-ai-daily-use-75s.mp4",
+      "poster": "/assets/video-posters/honer-ai-daily-use-75s.jpg",
+      "captions": "/assets/videos/honer-ai-daily-use-75s.vtt",
+      "bytes": 5274153,
+      "sha256": "42c1eaee7c3074ebabf10dd86e211235f9d58399df8a1e4eeec7aa3a1851db59",
+      "duration": 75.008,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 720,
+          "height": 1280,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000"
+        }
+      ],
+      "poster_at_seconds": 22,
+      "title": "У каждого свой вопрос",
+      "heading": "Письмо, объяснение темы и план выходных"
+    },
+    {
+      "id": "03",
+      "file": "/assets/videos/honer-ai-project-90s.mp4",
+      "poster": "/assets/video-posters/honer-ai-project-90s.jpg",
+      "captions": "/assets/videos/honer-ai-project-90s.vtt",
+      "bytes": 3803315,
+      "sha256": "311d3a12d36a9e998ad51d7ddbc6b2ef1255ce8b41ad84f6794b6811d68c517a",
+      "duration": 90.005,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 720,
+          "height": 900,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000"
+        }
+      ],
+      "poster_at_seconds": 45,
+      "title": "Один проект — несколько результатов",
+      "heading": "Как подготовить план, таблицу и иллюстрацию для мастерской"
+    },
+    {
+      "id": "04",
+      "file": "/assets/videos/honer-ai-guide-180s.mp4",
+      "poster": "/assets/video-posters/honer-ai-guide-180s.jpg",
+      "captions": "/assets/videos/honer-ai-guide-180s.vtt",
+      "bytes": 7045896,
+      "sha256": "d35ab58f9048f6c9ea92a55c628a13a9ff72566fd3f90425f8ef3aea30559b35",
+      "duration": 180.01,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720,
+          "pix_fmt": "yuv420p"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000"
+        }
+      ],
+      "poster_at_seconds": 100,
+      "title": "Как работать с Honer AI",
+      "heading": "Пошаговая видеоинструкция: запросы, файлы, память и подключения"
+    }
+  ]
+}

@@ -44,6 +44,8 @@ header.nav{display:flex;align-items:center;justify-content:space-between;gap:18p
 .nav nav{display:flex;flex-wrap:wrap;gap:10px 20px}
 .nav a.link{color:var(--muted);text-decoration:none;font-size:15px}
 .nav a.link:hover{color:#fff}
+.nav a.nav-download{padding:7px 12px;border:1px solid #5b7cff;border-radius:10px;color:#eef1ff;background:#202a62}
+header.nav>nav{align-items:center;min-width:0}
 .hero{display:grid;grid-template-columns:1.1fr .9fr;gap:36px;align-items:center;padding:36px 0 56px}
 .hero h1{font-size:clamp(34px,5vw,56px);line-height:1.1;margin:0 0 16px;letter-spacing:-.02em}
 .hero h1 span{background:linear-gradient(90deg,#7b9bff,#c08bff);-webkit-background-clip:text;background-clip:text;color:transparent}
@@ -97,7 +99,7 @@ footer a{display:inline-block;margin:0 16px 10px 0}
 <div class="wrap">
 <header class="nav">
   <a class="brand" href="/"><img src="assets/icon.png" width="40" height="40" alt=""> Honer AI</a>
-  <nav aria-label="Основная навигация"><a class="link" href="/features/">Возможности</a><a class="link" href="#screens">Скриншоты</a><a class="link" href="/help/">Помощь</a><a class="link" href="/download/">Скачать</a></nav>
+  <nav aria-label="Основная навигация"><a class="link" href="/" aria-current="page">Главная</a><a class="link" href="/guides/">Инструкции</a><a class="link" href="/prompts/">Шаблоны</a><a class="link" href="/videos/">Видео</a><a class="link nav-download" href="/download/">Скачать Honer AI</a></nav>
 </header>
 
 <main id="main">
@@ -135,8 +137,12 @@ footer a{display:inline-block;margin:0 16px 10px 0}
 
 <section id="guides" aria-labelledby="guides-title">
   <h2 id="guides-title">Возможности и инструкции</h2>
-  <p class="sub">Выберите задачу: на отдельных страницах собраны примеры запросов, порядок действий и ответы на частые вопросы.</p>
+  <p class="sub">Найдите знакомую задачу, прочитайте пример и перейдите к приложению. В каждой инструкции есть ссылки на главную и скачивание Honer AI.</p>
   <div class="grid">
+    <a class="card topic" href="/guides/"><h3>Практические инструкции</h3><p>Деловое письмо, учёба, таблица, картинка и другие задачи: порядок действий и примеры.</p></a>
+    <a class="card topic" href="/prompts/"><h3>Готовые запросы</h3><p>Выберите заготовку, скопируйте её и добавьте свои данные для разговора с ИИ.</p></a>
+    <a class="card topic" href="/videos/"><h3>Посмотреть в действии</h3><p>Видеодемонстрации интерфейса и работы с задачами в Honer AI.</p></a>
+    <a class="card topic" href="/compare/"><h3>Сравнения и выбор</h3><p>Как оценить ИИ-помощника для Android по своим сценариям и условиям использования.</p></a>
     <a class="card topic" href="/download/"><h3>Скачать Honer AI</h3><p>Магазины, официальный APK и установка приложения на Android.</p></a>
     <a class="card topic" href="/features/"><h3>Что умеет приложение</h3><p>Чат на русском, поиск с источниками, голос и работа с материалами.</p></a>
     <a class="card topic" href="/memory/"><h3>Память ИИ</h3><p>Как сохранить полезный факт и проверить, что помощник запомнил.</p></a>
@@ -218,7 +224,7 @@ footer a{display:inline-block;margin:0 16px 10px 0}
 
 </main>
 <footer>
-  <nav class="footerlinks" aria-label="Инструкции и помощь"><a href="/download/">Скачать</a><a href="/features/">Возможности</a><a href="/memory/">Память</a><a href="/images/">Картинки</a><a href="/files/">Таблицы и файлы</a><a href="/integrations/">Интеграции</a><a href="/help/">Помощь</a></nav>
+  <nav class="footerlinks" aria-label="Инструкции и помощь"><a href="/">Главная</a><a href="/download/">Скачать Honer AI</a><a href="/guides/">Инструкции</a><a href="/prompts/">Готовые запросы</a><a href="/videos/">Видео</a><a href="/compare/">Сравнения</a><a href="/features/">Возможности</a><a href="/memory/">Память</a><a href="/images/">Картинки</a><a href="/files/">Таблицы и файлы</a><a href="/integrations/">Интеграции</a><a href="/help/">Помощь</a></nav>
   <a href="https://xoner4-honor-pk-agent-ios-57fa.twc1.net/legal/privacy">Политика конфиденциальности</a>
   <a href="https://xoner4-honor-pk-agent-ios-57fa.twc1.net/legal/terms">Пользовательское соглашение</a>
   <a href="mailto:helper2026ai@mail.ru">Поддержка: helper2026ai@mail.ru</a>
